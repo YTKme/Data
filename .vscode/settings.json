@@ -1,0 +1,49 @@
+{
+  "editor.insertSpaces": true,
+  "python.testing.pytestArgs": [
+    "--showlocals",
+    "--capture=tee-sys",
+    "-vvvvv",
+    "--durations=0"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    },
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "autopep8.args": [
+    "--experimental",
+    "--ignore=E501",
+    // "--max-line-length", "120",
+  ]
+}
